@@ -7,23 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B17ED2AE299739290046EEBA /* UploadHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17ED2AD299739290046EEBA /* UploadHomeViewController.swift */; };
 		B1885FF929921216007106F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1885FF829921216007106F3 /* AppDelegate.swift */; };
 		B1885FFB29921216007106F3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1885FFA29921216007106F3 /* SceneDelegate.swift */; };
-		B1885FFD29921216007106F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1885FFC29921216007106F3 /* ViewController.swift */; };
-		B188600029921216007106F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1885FFE29921216007106F3 /* Main.storyboard */; };
 		B188600229921218007106F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B188600129921218007106F3 /* Assets.xcassets */; };
 		B188600529921218007106F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B188600329921218007106F3 /* LaunchScreen.storyboard */; };
+		B188600D2992AB03007106F3 /* AppHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B188600C2992AB03007106F3 /* AppHomeViewController.swift */; };
+		B188600F2992C120007106F3 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B188600E2992C120007106F3 /* TabBarController.swift */; };
+		B1AFBD8029948B6600DE8A52 /* DogNetworkAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1AFBD7F29948B6600DE8A52 /* DogNetworkAPI.swift */; };
+		B1AFBD832994B32F00DE8A52 /* DogsResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1AFBD822994B32F00DE8A52 /* DogsResponseModel.swift */; };
+		B1AFBD86299519A800DE8A52 /* DogsListViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1AFBD85299519A800DE8A52 /* DogsListViewCell.swift */; };
+		B1AFBD8929951CCB00DE8A52 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = B1AFBD8829951CCB00DE8A52 /* Kingfisher */; };
+		B1B24A9529961C0400EC9271 /* API+.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B24A9429961C0400EC9271 /* API+.swift */; };
+		B1B24A992996700900EC9271 /* FavouritesResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B24A982996700900EC9271 /* FavouritesResponseModel.swift */; };
+		B1B24A9C29967B2900EC9271 /* FavouriteHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B24A9B29967B2900EC9271 /* FavouriteHomeViewController.swift */; };
+		B1B24A9E2996875000EC9271 /* FavouriteListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B24A9D2996875000EC9271 /* FavouriteListCell.swift */; };
+		B1F00C9C2997D3C7000C44AA /* UploadResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F00C9B2997D3C7000C44AA /* UploadResponseModel.swift */; };
+		B1F00C9F2997D497000C44AA /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = B1F00C9E2997D497000C44AA /* Alamofire */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B17ED2AD299739290046EEBA /* UploadHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadHomeViewController.swift; sourceTree = "<group>"; };
 		B1885FF529921216007106F3 /* DoggieOn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoggieOn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1885FF829921216007106F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B1885FFA29921216007106F3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B1885FFC29921216007106F3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B1885FFF29921216007106F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B188600129921218007106F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B188600429921218007106F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B188600629921218007106F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B188600C2992AB03007106F3 /* AppHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppHomeViewController.swift; sourceTree = "<group>"; };
+		B188600E2992C120007106F3 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		B1AFBD7F29948B6600DE8A52 /* DogNetworkAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogNetworkAPI.swift; sourceTree = "<group>"; };
+		B1AFBD822994B32F00DE8A52 /* DogsResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogsResponseModel.swift; sourceTree = "<group>"; };
+		B1AFBD842994FD9F00DE8A52 /* Env.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Env.xcconfig; sourceTree = "<group>"; };
+		B1AFBD85299519A800DE8A52 /* DogsListViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogsListViewCell.swift; sourceTree = "<group>"; };
+		B1B24A9429961C0400EC9271 /* API+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "API+.swift"; sourceTree = "<group>"; };
+		B1B24A982996700900EC9271 /* FavouritesResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesResponseModel.swift; sourceTree = "<group>"; };
+		B1B24A9B29967B2900EC9271 /* FavouriteHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteHomeViewController.swift; sourceTree = "<group>"; };
+		B1B24A9D2996875000EC9271 /* FavouriteListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteListCell.swift; sourceTree = "<group>"; };
+		B1F00C9B2997D3C7000C44AA /* UploadResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadResponseModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,12 +52,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1AFBD8929951CCB00DE8A52 /* Kingfisher in Frameworks */,
+				B1F00C9F2997D497000C44AA /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B17ED2AC2997390C0046EEBA /* UploadHome */ = {
+			isa = PBXGroup;
+			children = (
+				B17ED2AD299739290046EEBA /* UploadHomeViewController.swift */,
+			);
+			path = UploadHome;
+			sourceTree = "<group>";
+		};
 		B1885FEC29921216007106F3 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +87,73 @@
 		B1885FF729921216007106F3 /* DoggieOn */ = {
 			isa = PBXGroup;
 			children = (
-				B1885FF829921216007106F3 /* AppDelegate.swift */,
-				B1885FFA29921216007106F3 /* SceneDelegate.swift */,
-				B1885FFC29921216007106F3 /* ViewController.swift */,
-				B1885FFE29921216007106F3 /* Main.storyboard */,
+				B1B24A8F2996036A00EC9271 /* AppRoot */,
+				B1B24A8E2996035400EC9271 /* AppHome */,
+				B1B24A9A29967B0000EC9271 /* FavouriteHome */,
+				B17ED2AC2997390C0046EEBA /* UploadHome */,
+				B1B24A902996062B00EC9271 /* Network */,
+				B1AFBD812994B26500DE8A52 /* Models */,
+				B1B24A9329961BEA00EC9271 /* Extension */,
 				B188600129921218007106F3 /* Assets.xcassets */,
+				B1AFBD842994FD9F00DE8A52 /* Env.xcconfig */,
 				B188600329921218007106F3 /* LaunchScreen.storyboard */,
 				B188600629921218007106F3 /* Info.plist */,
 			);
 			path = DoggieOn;
+			sourceTree = "<group>";
+		};
+		B1AFBD812994B26500DE8A52 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B1AFBD822994B32F00DE8A52 /* DogsResponseModel.swift */,
+				B1B24A982996700900EC9271 /* FavouritesResponseModel.swift */,
+				B1F00C9B2997D3C7000C44AA /* UploadResponseModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B1B24A8E2996035400EC9271 /* AppHome */ = {
+			isa = PBXGroup;
+			children = (
+				B188600C2992AB03007106F3 /* AppHomeViewController.swift */,
+				B1AFBD85299519A800DE8A52 /* DogsListViewCell.swift */,
+			);
+			path = AppHome;
+			sourceTree = "<group>";
+		};
+		B1B24A8F2996036A00EC9271 /* AppRoot */ = {
+			isa = PBXGroup;
+			children = (
+				B1885FF829921216007106F3 /* AppDelegate.swift */,
+				B1885FFA29921216007106F3 /* SceneDelegate.swift */,
+				B188600E2992C120007106F3 /* TabBarController.swift */,
+			);
+			path = AppRoot;
+			sourceTree = "<group>";
+		};
+		B1B24A902996062B00EC9271 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				B1AFBD7F29948B6600DE8A52 /* DogNetworkAPI.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		B1B24A9329961BEA00EC9271 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B1B24A9429961C0400EC9271 /* API+.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		B1B24A9A29967B0000EC9271 /* FavouriteHome */ = {
+			isa = PBXGroup;
+			children = (
+				B1B24A9B29967B2900EC9271 /* FavouriteHomeViewController.swift */,
+				B1B24A9D2996875000EC9271 /* FavouriteListCell.swift */,
+			);
+			path = FavouriteHome;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +172,10 @@
 			dependencies = (
 			);
 			name = DoggieOn;
+			packageProductDependencies = (
+				B1AFBD8829951CCB00DE8A52 /* Kingfisher */,
+				B1F00C9E2997D497000C44AA /* Alamofire */,
+			);
 			productName = DoggieOn;
 			productReference = B1885FF529921216007106F3 /* DoggieOn.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +204,10 @@
 				Base,
 			);
 			mainGroup = B1885FEC29921216007106F3;
+			packageReferences = (
+				B1AFBD8729951CCB00DE8A52 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				B1F00C9D2997D497000C44AA /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = B1885FF629921216007106F3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +224,6 @@
 			files = (
 				B188600529921218007106F3 /* LaunchScreen.storyboard in Resources */,
 				B188600229921218007106F3 /* Assets.xcassets in Resources */,
-				B188600029921216007106F3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +234,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1885FFD29921216007106F3 /* ViewController.swift in Sources */,
 				B1885FF929921216007106F3 /* AppDelegate.swift in Sources */,
+				B1AFBD8029948B6600DE8A52 /* DogNetworkAPI.swift in Sources */,
+				B1F00C9C2997D3C7000C44AA /* UploadResponseModel.swift in Sources */,
+				B1B24A992996700900EC9271 /* FavouritesResponseModel.swift in Sources */,
+				B1B24A9C29967B2900EC9271 /* FavouriteHomeViewController.swift in Sources */,
+				B1AFBD832994B32F00DE8A52 /* DogsResponseModel.swift in Sources */,
 				B1885FFB29921216007106F3 /* SceneDelegate.swift in Sources */,
+				B17ED2AE299739290046EEBA /* UploadHomeViewController.swift in Sources */,
+				B188600F2992C120007106F3 /* TabBarController.swift in Sources */,
+				B1AFBD86299519A800DE8A52 /* DogsListViewCell.swift in Sources */,
+				B1B24A9E2996875000EC9271 /* FavouriteListCell.swift in Sources */,
+				B1B24A9529961C0400EC9271 /* API+.swift in Sources */,
+				B188600D2992AB03007106F3 /* AppHomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		B1885FFE29921216007106F3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B1885FFF29921216007106F3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B188600329921218007106F3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +380,7 @@
 		};
 		B188600A29921218007106F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1AFBD842994FD9F00DE8A52 /* Env.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -292,7 +391,6 @@
 				INFOPLIST_FILE = DoggieOn/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -310,6 +408,7 @@
 		};
 		B188600B29921218007106F3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1AFBD842994FD9F00DE8A52 /* Env.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -320,7 +419,6 @@
 				INFOPLIST_FILE = DoggieOn/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -358,6 +456,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B1AFBD8729951CCB00DE8A52 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		B1F00C9D2997D497000C44AA /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B1AFBD8829951CCB00DE8A52 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B1AFBD8729951CCB00DE8A52 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		B1F00C9E2997D497000C44AA /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B1F00C9D2997D497000C44AA /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B1885FED29921216007106F3 /* Project object */;
 }

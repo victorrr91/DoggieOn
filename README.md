@@ -1,3 +1,6 @@
+<img width="250" alt="어플 스크린샷" src="https://user-images.githubusercontent.com/76080066/220016407-45b4bc12-e590-48d8-950a-3a9bb9295217.png">
+
+
 구현 사항
 
 - 무한 스크롤링을 통해 페이지 로드

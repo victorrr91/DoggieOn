@@ -21,3 +21,5 @@
 - 데이터를 불러오고 저장할 시점에 대한 고민
     
     → like/unlike와 같이 빈번한 통신의 경우도 서버와 바로 싱크를 맞추는 것이 좋음 (다운 등으로 갑작스런 종료에도 데이터 보존) , 하지만 무거운 데이터의 경우는 캐싱 후 푸시를 생각해볼 법도 함.
+
+포트폴리오 사이트: [https://victorios.imweb.me/Projects](https://victorios.imweb.me/Projects)
